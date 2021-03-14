@@ -11,6 +11,11 @@
 
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+  <!-- swiper slider -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- author -->
   <meta name="twitter:ShawRishita" content="Rishita Shaw, nit dgp, electrical engineering">
 
 </head>
@@ -23,14 +28,33 @@
     <div class="navigation__data">
       <ul class="navigation__data-items">
         <li class="navigation__data-items">
+          <a href="#contact" class="navigation__links">
+            <img src="https://media-exp1.licdn.com/dms/image/C510BAQE1DDPCmYsLmQ/company-logo_200_200/0/1569043635104?e=2159024400&v=beta&t=Zv72m6GsJ52cRdHV_tPlimCXgJbrFAB6avLf_KSf-0Q" alt="" class="navigation__logo">
+          </a>
+        </li>
+        <li class="navigation__data-items nav_1">
           <a href="#" class="navigation__links">About us</a>
         </li>
         <li class="navigation__data-items">
-          <a href="#main" class="navigation__links">Discover</a>
+          <a href="#main" class="navigation__links">Auditions</a>
         </li>
         <li class="navigation__data-items">
-          <a href="#contact" class="navigation__links">Contact Us</a>
+          <a href="#contact" class="navigation__links">Events</a>
         </li>
+        <li class="navigation__data-items">
+          <a href="#contact" class="navigation__links">Projects</a>
+        </li>
+        <li class="navigation__data-items">
+          <a href="#contact" class="navigation__links">Team</a>
+        </li>
+        <li class="navigation__data-items">
+          <a href="#contact" class="navigation__links">Sponsors</a>
+        </li>
+        <li class="navigation__data-items">
+          <a href="#contact" class="navigation__links">Contact</a>
+        </li>
+
+
       </ul>
     </div>
   </section>
@@ -49,7 +73,7 @@
       </div>
 
   </section>
-  <section id="main">
+  <!--  <section id="main">
     <div class="bd-example" data-aos="zoom-in" data-aos-duration="2000">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -106,7 +130,51 @@
         </a>
       </div>
     </div>
+  </section>-->
+  <section id="slider">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url(" https://images.pexels.com/photos/6805871/pexels-photo-6805871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")">
+
+          <img src="https://images.pexels.com/photos/6805871/pexels-photo-6805871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="swipper__img" alt="">
+        </div>
+        <div class="swiper-slide" style="background-image: url(" https://images.pexels.com/photos/6805871/pexels-photo-6805871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")">
+
+          <img src="https://images.pexels.com/photos/7016489/pexels-photo-7016489.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="swipper__img" alt="">
+        </div>
+        <div class="swiper-slide" style="background-image: url(" https://images.pexels.com/photos/6805871/pexels-photo-6805871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")">
+
+          <img src="https://images.pexels.com/photos/6574738/pexels-photo-6574738.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="swipper__img" alt="">
+        </div>
+        <div class="swiper-slide" style="background-image: url(" https://images.pexels.com/photos/6805871/pexels-photo-6805871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")">
+
+          <img src="https://images.pexels.com/photos/5195763/pexels-photo-5195763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="swipper__img" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.pexels.com/photos/7080378/pexels-photo-7080378.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.pexels.com/photos/5409751/pexels-photo-5409751.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.pexels.com/photos/92248/pexels-photo-92248.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        </div>
+
+
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
   </section>
+
+
   <section id="contact">
     <div class="contact container">
       <div class="row">
@@ -123,17 +191,36 @@
     </div>
   </section>
   <footer>
-    © PRAKRITI 2021 <br>MADE BY  RISHITA SHAW
+    © PRAKRITI 2021 <br>MADE BY RISHITA SHAW
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
   <script>
     AOS.init();
+
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
   </script>
 </body>
 
